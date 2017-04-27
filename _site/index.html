@@ -20,11 +20,200 @@
   <meta name="twitter:description" content="{{ page.description }}">
   <meta name="twitter:image" content="{{ site.url }}{% if page.og_image %}/assets/{{ page.og_image }}{% else %}/assets/og-image.jpg{% endif %}">
 
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300" rel="stylesheet">
+  <style type="text/css">
+@charset "UTF-8";
+/*
+  Flavor name: Default (mini-default)
+  Author: Angelos Chalaris (chalarangelo@gmail.com)
+  Maintainers: Angelos Chalaris
+  mini.css version: v2.1.2 (Fermion)
+*/
+/*
+  Browsers resets and base typography.
+*/
+html {
+  font-size: 16px;
+  min-height: 100%;
+  margin: 0;
+}
+
+html, * {
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  font-size: 1em;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  color: #FFF;
+  background-color: #2d38a2;
+  background-image: linear-gradient(135deg, #2d38a2 0%, #5f30b5 100%);
+}
+
+article, aside, section, figcaption, figure, main, details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+input {
+  overflow: visible;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2em;
+  margin: 12px 8px;
+  font-weight: 500;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  color: #424242;
+  display: block;
+  margin-top: -4px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.85em;
+}
+
+p {
+  margin: 1px 8px;
+}
+
+ol, ul {
+  margin: 1px 8px 10px;
+  padding-left: 28px;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:hover, a:focus, a:active {
+  opacity: 0.75;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
+.title-and-sub-title {
+  text-align: center;
+  padding: 10rem 2rem 2rem 2rem;
+}
+
+.title-and-sub-title h1 {
+  font-weight: 200;
+  font-size: 5em;
+}
+
+.title-and-sub-title h2 {
+  font-weight: 300;
+}
+
+.links-1 {
+  padding: 2rem;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.links-1 a {
+  padding: 0em 0.6em;
+}
+
+.links-1 p {
+  max-width: 8em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+</style>
+
 </head>
 <body>
+  <main>
+    <section class="title-and-sub-title">
+      <h1> Hi, I'm Ravi Ojha </h1>
+      <h2> Full-stack Software Engineer by passion. A product person. On lazy weekends, I either indulge into graphic design or write blog posts on <a href="http://rookieslab.com/" target="_blank">rookieslab.com</a>. I'm also into competitive programming, which helps to keep up with algorithmic challenges and logical skills.</h2>
+    </section>
+    <section class="links-1">
+      <p> professional </p>
+      <a href="https://www.linkedin.com/in/raviojha/" target="_blank">LinkedIn</a><span> &bull; </span>
+      <a href="https://github.com/ravi-ojha/" target="_blank">Github</a><span> &bull; </span>
+      <a href="http://rookieslab.com/" target="_blank">Blog</a><span> &bull; </span>
+      <a href="http://rookieslab.com/resume" target="_blank">Resume</a>
+    </section>
 
-<h1> Ravi Ojha </h1>
-<h2> Full-stack Software Engineer by passion. A product person. On lazy weekends, I either indulge into graphic design or write blog posts on <a href="http://rookieslab.com/" target="_blank">rookieslab.com</a>. I'm also into competitive programming, which helps to keep up with algorithmic challenges and logical skills.<h2>
-
+    <section class="links-1">
+      <p> social </p>
+      <a href="https://www.facebook.com/ivarojha" target="_blank">Facebook</a><span> &bull; </span>
+      <a href="https://twitter.com/ivarojha" target="_blank">Twitter</a><span> &bull; </span>
+      <a href="https://www.quora.com/profile/Ravi-Ojha" target="_blank">Quora</a>
+    </section>
+  </main>
 </body>
